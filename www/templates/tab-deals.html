@@ -1,0 +1,45 @@
+<ion-view view-title="{{(category.name) || 'Offres'}}" ng-class="loadingClass">
+
+  <ion-content>
+    <ion-refresher on-refresh="onRefresh()">
+    </ion-refresher>
+    <p ng-hide="deals.length" class="deals-empty">Aucune offre pour le moment :(</p>
+    <ion-list>
+      <ion-item class="deal" ng-repeat="deal in deals" type="item" href="{{dealPath(deal)}}">
+        <div class="row">
+          <div class="col col-20 col-center deal-col-category-avatar">
+              <img src="{{deal.shop.logo || 'img/missing.png'}}">
+          </div>
+          <div class="col col-15 col-center deal-col-brand-avatar">
+            <div class="half-col">&nbsp;</div>
+            <div class="brand-avatar-container">
+            <img class="brand-avatar" src="{{deal.shop.category.logo}}">
+            </div>
+          </div>
+          <div class="col col-60 col-offset-15 deal-description-col">
+
+            <h2>{{deal.name}}</h2>
+            <p class="shop-name">{{deal.shop.name}}</p>
+            <div class="deal-details">
+              <p>
+                <i class="icon ion-ios-clock-outline"></i>
+                <span>{{deal.end_date | date:'d MMMM'}}</span>
+              </p>
+              <p>
+                <i class="icon ion-ios-location-outline"></i>
+                <span>{{deal.shop.city}}</span>
+              </p>
+            </div>
+
+          </div>
+          <div class="col col-5 col-center">
+            <i class="icon ion-chevron-right col-center"></i>
+          </div>
+        </div>
+
+      </ion-item>
+    </ion-list>
+    <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false" distance="1%" ng-if="nextPage">
+    </ion-infinite-scroll>
+  </ion-content>
+</ion-view>
