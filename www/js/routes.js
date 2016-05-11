@@ -25,31 +25,33 @@ function routes ($stateProvider, $urlRouterProvider) {
     }
   })
 
-  .state('tab.chats', {
-      url: '/chats',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
-        }
-      }
-    })
-
-  .state('tab.account', {
-    url: '/account',
+    .state('tab.deal', {
+    url: '/deal',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+      'tab-deal': {
+        templateUrl: 'templates/tab-deal.html',
+        controller: 'dealsCtrl'
+      }
+    }
+  })
+
+
+     .state('tab.categories', {
+    url: '/categories',
+    views: {
+      'tab-categories': {
+        templateUrl: 'templates/tab-categories.html',
+        controller: 'categoriesCtrl'
+      }
+    }
+  })
+
+
+.state('tab.settings', {
+    url: '/settings',
+    views: {
+      'tab-settings': {
+        templateUrl: 'templates/tab-settings.html',
       }
     }
   });

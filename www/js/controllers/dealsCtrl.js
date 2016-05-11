@@ -20,7 +20,7 @@ function dealsCtrl ($scope) {
 		"city":  "La Loupe",
 		"category":{
 			"name":"Alimentaire",
-			"logo":"http://images.google.fr/url?sa=t&rct=j&q=&source=imgres&cd=1&cad=rja&uact=8&ved=0ahUKEwjo-8HG6s_MAhUFJJoKHUGfD68Q5hMIBTAA&url=http%3A%2F%2Femballages.arts-et-metiers.net%2Fimages%2Flogo-alimentaire.png&usg=AFQjCNEzioSTTT2hBxCHDf7On847HBz5nA&sig2=8O-X480gbTHKj5po0s3ong",
+			"logo":"http://emballages.arts-et-metiers.net/images/logo-alimentaire.png",
 			},
 		},
 	"name": "Offre de Noel",
