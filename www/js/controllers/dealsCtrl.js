@@ -1,4 +1,7 @@
 function dealsCtrl($scope) {
+	$scope.toggleStar = function(deal) {
+                    deal.star = !deal.star;
+                };
   $scope.deals = [{
     id: "1",
     name: "Offre de Noel",
@@ -191,7 +194,5 @@ function dealsCtrl($scope) {
       }
     },
   }];
-   $scope.toggleStar = function(item) {
-                    item.star = !item.star;
-                }
+
 }
