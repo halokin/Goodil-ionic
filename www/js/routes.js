@@ -30,7 +30,7 @@ function routes ($stateProvider, $urlRouterProvider) {
     views: {
       'tab-deal': {
         templateUrl: 'templates/tab-deal.html',
-        controller: 'dealsCtrl'
+        controller: 'dealCtrl'
       }
     }
   })
