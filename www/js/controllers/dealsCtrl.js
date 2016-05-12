@@ -191,4 +191,7 @@ function dealsCtrl($scope) {
       }
     },
   }];
+   $scope.toggleStar = function(item) {
+                    item.star = !item.star;
+                }
 }

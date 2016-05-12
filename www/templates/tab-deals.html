@@ -5,7 +5,7 @@
     </ion-refresher>
     <p ng-hide="deals.length" class="deals-empty">Aucune offre pour le moment :(</p>
     <ion-list>
-      <ion-item class="deal" ng-repeat="deal in deals" type="item" href="{{dealPath(deal)}}">
+      <ion-item class="deal item-icon-right" ng-class="{'star': item.star}" ng-repeat="deal in deals" type="item" href="{{dealPath(deal)}}">
         <div class="row">
           <div class="col col-20 col-center deal-col-category-avatar">
               <img src="{{deal.shop.logo || 'img/missing.png'}}">
@@ -36,6 +36,15 @@
             <i class="icon ion-chevron-right col-center"></i>
           </div>
         </div>
+
+
+          <button class="button button-clear icon ion-star button royal" ng-click="toggleStar(item)" ng-show="item.star"></button>
+                  
+                  <ion-option-button class="button-royal" ng-click="toggleStar(item)">
+                      <i class="icon ion-star"></i>
+                  </ion-option-button>
+                  
+                 
 
       </ion-item>
     </ion-list>

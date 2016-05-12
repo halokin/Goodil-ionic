@@ -574,3 +574,9 @@
     max-height: 0;
     margin-top: 0;
     margin-bottom: 0; }
+
+
+
+.star>.item-content {
+    background-color: #B6F7A1 !important;
+}
