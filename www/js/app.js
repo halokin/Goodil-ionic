@@ -9,6 +9,7 @@ angular.module('goodil', ['ionic'])
 //controllers//
 .controller('dealsCtrl', dealsCtrl)
 .controller('categoriesCtrl', categoriesCtrl)
+.controller('dealCtrl', dealCtrl)
 //services//
 
 //factories//
