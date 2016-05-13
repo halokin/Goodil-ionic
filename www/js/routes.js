@@ -25,11 +25,12 @@ function routes ($stateProvider, $urlRouterProvider) {
     }
   })
 
-    .state('tab.deal', {
-    url: '/deal',
+
+  .state('tab.deal', {
+    url: '/deals/:aId',
     views: {
-      'tab-deal': {
-        templateUrl: 'templates/tab-deal.html',
+      'tab-deals' : {
+        templateUrl: 'templates/tab-deal.html', 
         controller: 'dealsCtrl'
       }
     }
@@ -57,6 +58,6 @@ function routes ($stateProvider, $urlRouterProvider) {
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  $urlRouterProvider.otherwise('/tab/deals');
 
 };

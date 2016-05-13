@@ -1,14 +1,17 @@
-function dealsCtrl($scope) {
+function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
+
 	$scope.toggleStar = function(deal) {
                     deal.star = !deal.star;
                 };
+
+
   $scope.deals = [{
     id: "1",
     name: "Offre de Noel",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo Noel",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -28,11 +31,11 @@ function dealsCtrl($scope) {
   },
   {
     id: "2",
-    name: "Offre de Noel",
+    name: "Offre de paques",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo paques",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -52,11 +55,11 @@ function dealsCtrl($scope) {
   },
   {
     id: "3",
-    name: "Offre de Noel",
+    name: "Offre de Printemps",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo Printemps",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -76,11 +79,11 @@ function dealsCtrl($scope) {
   },
   {
     id: "4",
-    name: "Offre de Noel",
+    name: "Offre d'été",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo été",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -100,11 +103,11 @@ function dealsCtrl($scope) {
   },
   {
     id: "5",
-    name: "Offre de Noel",
+    name: "Offre de maintenant",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo maintenant",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -124,11 +127,11 @@ function dealsCtrl($scope) {
   },
   {
     id: "6",
-    name: "Offre de Noel",
+    name: "Offre de demain",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo demain",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -148,11 +151,11 @@ function dealsCtrl($scope) {
   },
   {
     id: "7",
-    name: "Offre de Noel",
+    name: "Offre de apres-demain",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo apres-demain",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -172,11 +175,11 @@ function dealsCtrl($scope) {
   },
   {
     id: "8",
-    name: "Offre de Noel",
+    name: "Offre de la veille",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
-    description: "super promo But",
+    description: "super promo veille",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -194,5 +197,19 @@ function dealsCtrl($scope) {
       }
     },
   }];
+
+
+   	if ($stateParams.aId){
+   		var count;
+	   	for (count = 0; count < $scope.deals.length; count ++){
+	   		if ($scope.deals[count].id == $stateParams.aId)
+	   			break;
+	   	}
+	   	setTimeout(function() {
+                $ionicSlideBoxDelegate.slide(count);
+                $ionicSlideBoxDelegate.update();
+                $scope.$apply();
+         });
+ 	}
 
 }
