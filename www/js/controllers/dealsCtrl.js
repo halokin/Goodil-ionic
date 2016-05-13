@@ -31,10 +31,10 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
   },
   {
     id: "2",
-    name: "Offre de paques",
+    name: "Offre Boulanger",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
-    img: "./img/pub/but1.jpg",
+    img: "./img/pub/boulangerannonce1.jpg",
     description: "super promo paques",
     shop: {
       name: "But La Loupe",
@@ -55,10 +55,10 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
   },
   {
     id: "3",
-    name: "Offre de Printemps",
+    name: "Offre Bouygues immo",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
-    img: "./img/pub/but1.jpg",
+    img: "./img/pub/bouyguesimmo1.jpg",
     description: "super promo Printemps",
     shop: {
       name: "But La Loupe",
@@ -79,10 +79,10 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
   },
   {
     id: "4",
-    name: "Offre d'été",
+    name: "Offre ciné pathé",
     start_date: "25/12/2016",
     end_date: "26/12/2016",
-    img: "./img/pub/but1.jpg",
+    img: "./img/pub/cinepathe.jpg",
     description: "super promo été",
     shop: {
       name: "But La Loupe",
