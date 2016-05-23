@@ -267,9 +267,11 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  /*width: 40px;
+  height: 40px;*/
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
   background: white; }
   .deal .brand-avatar-container img {
     top: 0;
@@ -464,8 +466,10 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 40px;
-    height: 40px;
+    /*width: 40px;
+    height: 40px;*/
+    /*width: 100px;
+    height: 100px;*/
     border-radius: 20px;
     background: white;
     z-index: 1; }
@@ -477,8 +481,8 @@
       margin: auto;
       position: absolute;
       z-index: 2;
-      max-width: 70%;
-      max-height: 70%; }
+      /*max-width: 70%;
+      max-height: 70%;*/ }
   .deal-detail .half-col {
     position: absolute;
     left: 0;
@@ -576,6 +580,7 @@
     margin-bottom: 0; }
 
 
+/*tab-deals elements*/
 
 .star>.item-content {
     background-color: #e2d8f3 !important;
@@ -586,3 +591,40 @@
       margin-top: 39px;
 }
 
+
+.city-deals.icon.ion-ios-location-outline {
+      position: relative;
+      width: 15px;
+      height: 20px;
+      margin-left: 8px;
+     /* margin-top: 10px;*/
+     /*padding-top: 10px;*/
+
+    }
+
+.city-deals-line {
+      /*margin-top: -20px;*/
+      /*padding-top: -10px;*/
+      font-size: 14px;
+}
+
+.shop-logo-thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.brand-avatar {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+/*.brand-avatar-container{
+  width: 150px;
+  height: 150px;
+}*/
+
+.royal{
+    color : blue !important; // text
+    background-color:blue!important; // for bg color
+ }

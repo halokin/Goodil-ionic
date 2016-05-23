@@ -16,15 +16,15 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       name: "But La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/But.png",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/ameublement.jpg",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/But.png",
         created_at: "12/05/2016",
       }
     },
