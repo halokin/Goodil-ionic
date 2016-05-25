@@ -37,18 +37,18 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     img: "./img/pub/boulangerannonce1.jpg",
     description: "super promo paques",
     shop: {
-      name: "But La Loupe",
+      name: "Boulanger La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/Boulanger.png",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/culture.png",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/Boulanger.png",
         created_at: "12/05/2016",
       }
     },
@@ -64,15 +64,15 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       name: "But La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/Carrefour.jpg",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/culture.png",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/Carrefour.jpg",
         created_at: "12/05/2016",
       }
     },
@@ -88,15 +88,15 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       name: "But La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/E-Leclerc.jpg",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/artisan.jpg",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/E-Leclerc.jpg",
         created_at: "12/05/2016",
       }
     },
@@ -112,15 +112,15 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       name: "But La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/Fnac.jpg",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/loisirs.png",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/Fnac.jpg",
         created_at: "12/05/2016",
       }
     },
@@ -136,15 +136,15 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       name: "But La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/Lidl_logo.png",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/restauration.jpg",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/Lidl_logo.png",
         created_at: "12/05/2016",
       }
     },
@@ -160,15 +160,15 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       name: "But La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/McDonalds.png",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/auto.png",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/McDonalds.png",
         created_at: "12/05/2016",
       }
     },
@@ -184,15 +184,15 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       name: "But La Loupe",
       type:"Grande surface",
       city: "28240 La Loupe",
-      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      logo: "./img/shop-logo/Peugeot.jpg",
       category:{
         name: "Ameublement",
-        logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
+        logo: "./img/icons-categories/picto-supermarche.png",
       },
       brand: {
         name: "But",
         description: " Magasin ameublement",
-        logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+        logo: "./img/shop-logo/Peugeot.jpg",
         created_at: "12/05/2016",
       }
     },
