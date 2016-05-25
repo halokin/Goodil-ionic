@@ -12,6 +12,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
     description: "super promo Noel",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -36,6 +37,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/boulangerannonce1.jpg",
     description: "super promo paques",
+    term: "les termes de l'offre",
     shop: {
       name: "Boulanger La Loupe",
       type:"Grande surface",
@@ -60,6 +62,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/bouyguesimmo1.jpg",
     description: "super promo Printemps",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -84,6 +87,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/cinepathe.jpg",
     description: "super promo été",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -108,6 +112,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
     description: "super promo maintenant",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -132,6 +137,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
     description: "super promo demain",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -156,6 +162,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
     description: "super promo apres-demain",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",
@@ -180,6 +187,7 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
     description: "super promo veille",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",

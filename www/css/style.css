@@ -448,7 +448,12 @@
     -moz-align-items: center;
     align-items: center;
     position: relative; }
+    .deal-detail .
   .deal-detail .deal-detail-expiration {
+    width: 30%;
+    text-align: center;
+    padding-left: 5%; }
+  .deal-detail .deal-detail-term {
     width: 30%;
     text-align: center;
     padding-left: 5%; }
@@ -485,7 +490,7 @@
       max-height: 70%;*/ }
   .deal-detail .half-col {
     position: absolute;
-    left: 0;
+    left: 50px;
     top: 0;
     bottom: 0;
     width: 50%;
@@ -497,7 +502,7 @@
     height: 100%;
     position: absolute;
     z-index: 0;
-    top: 0;
+    top: -20px;
     left: 40%;
     bottom: 0;
     right: 0;
@@ -599,8 +604,8 @@
       margin-left: 8px;
      /* margin-top: 10px;*/
      /*padding-top: 10px;*/
-
     }
+
 
 .city-deals-line {
       /*margin-top: -20px;*/
@@ -623,3 +628,55 @@
   width: 150px;
   height: 150px;
 }*/
+
+
+
+/* tab-deal elements */
+
+.deal-brand-avatar-container {
+    border: 1px solid #C7C7CC;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    /*width: 100px;
+    height: 100px;*/
+    border-radius: 60px;
+    background: white;
+    z-index: 1; }
+
+.deal-brand-avatar-container img {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    max-width: 70%;
+    max-height: 70%; }
+
+
+.deal-detail-col1{
+margin-left: 25px;
+text-align: center;
+border-style: solid;
+border-width: 5px;
+
+}
+
+
+.deal-detail-term {
+
+text-align: center;
+margin: auto;
+width: 150px;
+
+
+border-style: dotted;
+border-width: 5px;
+}

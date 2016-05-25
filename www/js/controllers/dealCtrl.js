@@ -6,6 +6,7 @@ function dealCtrl($scope) {
     end_date: "26/12/2016",
     img: "./img/pub/but1.jpg",
     description: "super promo But",
+    term: "les termes de l'offre",
     shop: {
       name: "But La Loupe",
       type:"Grande surface",

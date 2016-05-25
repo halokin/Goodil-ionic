@@ -13,16 +13,21 @@
             </div>
           </div>
           <div class="deal-detail-bottom">
+
+          <div class="deal-detail-col1">
+                  
             <div class="deal-detail-expiration">
               Valide jusqu'au {{deal.end_date | date:'d MMMM'}}
             </div>
-            <!--<div class="deal-detail-description">
-            {{deal.shop.description}}
-            </div>-->
+            <div class="deal-detail-term">
+            {{deal.term}}
+            </div>
+
+          </div>
             <div class="deal-detail-brand-avatar">
               <div class="half-col">&nbsp;</div>
-              <div class="brand-avatar-container">
-                <img class="brand-avatar" src="{{deal.shop.logo || 'img/missing.png'}}">
+              <div class="deal-brand-avatar-container">
+                <img class="deal-brand-avatar" src="{{deal.shop.logo || 'img/missing.png'}}">
               </div>
             </div>
             <div class="deal-detail-location" ng-click="goToMap()">
