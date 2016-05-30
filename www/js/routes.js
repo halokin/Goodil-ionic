@@ -36,6 +36,16 @@ function routes ($stateProvider, $urlRouterProvider) {
     }
   })
 
+  .state('tab.deal', {
+    url: '/deals/:aId/map',
+    views: {
+      'tab-deals' : {
+        templateUrl: 'templates/tab-deal-map.html', 
+        controller: 'dealsCtrl'
+      }
+    }
+  })
+
 
      .state('tab.categories', {
     url: '/categories',

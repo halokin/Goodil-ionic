@@ -602,7 +602,7 @@
       width: 15px;
       height: 20px;
       margin-left: 8px;
-      font-size: 15px;
+      font-size: 20px;
      /* margin-top: 10px;*/
      /*padding-top: 10px;*/
     }
@@ -676,8 +676,10 @@ border-width: 5px;
 text-align: center;
 margin: auto;
 width: 150px;
-
-
 border-style: dotted;
 border-width: 5px;
 }
+
+
+.shop-name {
+  margin-top: 15px; }
