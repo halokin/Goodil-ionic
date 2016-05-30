@@ -1,4 +1,10 @@
-function dealCtrl($scope) {
+function dealCtrl($scope, $state) {
+
+  $scope.goToMap = function(deal)  {
+    console.log(deal);
+    $state.go('tab.map', {lng: deal.shop.lng, lat: deal.shop.lat})
+  }
+
   $scope.deal = [{
     id: "1",
     name: "Offre de Noel",
@@ -12,6 +18,8 @@ function dealCtrl($scope) {
       type:"Grande surface",
       city: "28240 La Loupe",
       logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo-BUT.svg/1024px-Logo-BUT.svg.png",
+      lng: "1.011",
+      lat: "48.447",
       category:{
         name: "Ameublement",
         logo: "http://www.bassin-neufchateau.fr/images/Logo%20Mobilier.JPG",
@@ -25,3 +33,4 @@ function dealCtrl($scope) {
     },
   }];
 }
+

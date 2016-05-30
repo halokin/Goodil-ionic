@@ -1,9 +1,13 @@
-function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
+function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
 
 	$scope.toggleStar = function(deal) {
                     deal.star = !deal.star;
                 };
 
+ $scope.goToMap = function(deal)  {
+    console.log(deal);
+    $state.go('tab.map', {lng: deal.shop.lng, lat: deal.shop.lat})
+  };
 
   $scope.deals = [{
     id: "1",
@@ -18,6 +22,8 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       type:"Grande surface",
       city: "28240 La Loupe",
       logo: "./img/shop-logo/But.png",
+      lng: "1.011",
+      lat: "48.447",
       category:{
         name: "Ameublement",
         logo: "./img/icons-categories/ameublement.jpg",
@@ -43,6 +49,8 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       type:"Grande surface",
       city: "28240 La Loupe",
       logo: "./img/shop-logo/Boulanger.png",
+      lng: "1.011",
+      lat: "48.447",
       category:{
         name: "Ameublement",
         logo: "./img/icons-categories/culture.png",
@@ -68,6 +76,8 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       type:"Grande surface",
       city: "28240 La Loupe",
       logo: "./img/shop-logo/Carrefour.jpg",
+      lng: "1.011",
+      lat: "48.447",
       category:{
         name: "Ameublement",
         logo: "./img/icons-categories/culture.png",
@@ -93,6 +103,8 @@ function dealsCtrl($scope, $stateParams, $ionicSlideBoxDelegate) {
       type:"Grande surface",
       city: "28240 La Loupe",
       logo: "./img/shop-logo/E-Leclerc.jpg",
+      lng: "1.011",
+      lat: "48.447",
       category:{
         name: "Ameublement",
         logo: "./img/icons-categories/artisan.jpg",

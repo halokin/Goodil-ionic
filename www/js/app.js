@@ -10,6 +10,7 @@ angular.module('goodil', ['ionic'])
 .controller('dealsCtrl', dealsCtrl)
 .controller('categoriesCtrl', categoriesCtrl)
 .controller('dealCtrl', dealCtrl)
+.controller('mapCtrl', mapCtrl)
 //services//
 
 //factories//
