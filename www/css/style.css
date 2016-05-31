@@ -608,6 +608,17 @@
     }
 
 
+.city-deals.icon.ion-ios-clock-outline {
+      position: relative;
+      width: 15px;
+      height: 20px;
+      margin-left: 8px;
+      font-size: 16px;
+     /* margin-top: 10px;*/
+     /*padding-top: 10px;*/
+    }
+
+
 .city-deals-line {
       /*margin-top: -20px;*/
       /*padding-top: -10px;*/
@@ -663,21 +674,17 @@
 
 
 .deal-detail-col1{
-margin-left: 25px;
-text-align: center;
-border-style: solid;
-border-width: 5px;
-
+  margin-left: 25px;
+  text-align: center;
 }
 
 
 .deal-detail-term {
-
-text-align: center;
-margin: auto;
-width: 150px;
-border-style: dotted;
-border-width: 5px;
+  text-align: center;
+  margin: auto;
+  width: 150px;
+  border-style: dotted;
+  border-width: 5px;
 }
 
 

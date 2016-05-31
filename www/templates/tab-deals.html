@@ -28,10 +28,11 @@
         <span>{{deal.end_date | date:'d MMMM'}}</span>
       </p> -->
       <p>
-      <i class="city-deals ion-ios-clock-outline"></i>
-        <span>{{deal.end_date | date:'d MMMM'}}</span>
+      <i class="city-deals icon ion-ios-clock-outline"></i>
+        <span>du {{deal.start_date | date:'d MMMM'}} au {{deal.end_date | date:'d MMMM'}}</span>
+      </p>
+      <p>
         <i class="city-deals icon ion-ios-location-outline"></i>
-        
         <span class="city-deals-line">{{deal.shop.city}}</span>
       </p>
     </div>

@@ -26,7 +26,7 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       lat: "48.447",
       category:{
         name: "Ameublement",
-        logo: "./img/icons-categories/ameublement.jpg",
+        logo: "./img/pictos/ameublement-decoration@3x.png",
       },
       brand: {
         name: "But",
@@ -52,8 +52,8 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       lng: "1.011",
       lat: "48.447",
       category:{
-        name: "Ameublement",
-        logo: "./img/icons-categories/culture.png",
+        name: "culture",
+        logo: "./img/pictos/culture-hightech@3x.png",
       },
       brand: {
         name: "But",
@@ -80,7 +80,7 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       lat: "48.447",
       category:{
         name: "Ameublement",
-        logo: "./img/icons-categories/culture.png",
+        logo: "./img/pictos/ameublement-decoration@3x.png",
       },
       brand: {
         name: "But",
@@ -107,7 +107,7 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       lat: "48.447",
       category:{
         name: "Ameublement",
-        logo: "./img/icons-categories/artisan.jpg",
+        logo: "./img/pictos/ameublement-decoration@3x.png",
       },
       brand: {
         name: "But",
@@ -132,7 +132,7 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       logo: "./img/shop-logo/Fnac.jpg",
       category:{
         name: "Ameublement",
-        logo: "./img/icons-categories/loisirs.png",
+        logo: "./img/pictos/ameublement-decoration@3x.png",
       },
       brand: {
         name: "But",
@@ -157,7 +157,7 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       logo: "./img/shop-logo/Lidl_logo.png",
       category:{
         name: "Ameublement",
-        logo: "./img/icons-categories/restauration.jpg",
+        logo: "./img/pictos/ameublement-decoration@3x.png",
       },
       brand: {
         name: "But",
@@ -182,7 +182,7 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       logo: "./img/shop-logo/McDonalds.png",
       category:{
         name: "Ameublement",
-        logo: "./img/icons-categories/auto.png",
+        logo: "./img/pictos/ameublement-decoration@3x.png",
       },
       brand: {
         name: "But",
@@ -207,7 +207,7 @@ function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
       logo: "./img/shop-logo/Peugeot.jpg",
       category:{
         name: "Ameublement",
-        logo: "./img/icons-categories/picto-supermarche.png",
+        logo: "./img/pictos/ameublement-decoration@3x.png",
       },
       brand: {
         name: "But",

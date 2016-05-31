@@ -10,6 +10,7 @@ var mapOptions = {
 $scope.map = new google.maps.Map(document.getElementById("map"), mapOptions);
 new google.maps.Marker({
 	map: $scope.map,
+	animation: google.maps.Animation.DROP,
 	position: {lat:parseFloat($stateParams.lat), lng: parseFloat($stateParams.lng)}
 })
 
