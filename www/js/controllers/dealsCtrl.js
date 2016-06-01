@@ -1,4 +1,17 @@
-function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate) {
+function dealsCtrl($scope, $state, $stateParams, $ionicSlideBoxDelegate, $http) {
+
+  $http.get('http://goodil.ibangf.ovh/deals').then(function(res){
+    console.log('deals');
+    console.log(res.data);
+  })
+  $http.get('http://goodil.ibangf.ovh/category').then(function(res){
+    console.log('categories');
+    console.log(res.data);
+  })
+  $http.get('http://goodil.ibangf.ovh/shop').then(function(res){
+    console.log('shops');
+    console.log(res.data);
+  })
 
 	$scope.toggleStar = function(deal) {
                     deal.star = !deal.star;
